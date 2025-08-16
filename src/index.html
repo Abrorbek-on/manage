@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <div class="max-w-[1300px] m-auto">
+        <nav class="flex justify-between items-center mx-auto py-15 px-4 relative">
+            <img src="imgs/images/logo.svg" alt="">
+            <ul class=" space-x-6 hidden sm:flex gap-8 text-lg">
+                <li class="hover:text-gray-500"><a href="#">Pricing</a></li>
+                <li class="hover:text-gray-500"><a href="#">Product</a></li>
+                <li class="hover:text-gray-500"><a href="#">About us</a></li>
+                <li class="hover:text-gray-500"><a href="#">Careers</a></li>
+                <li class="hover:text-gray-500"><a href="#">Community</a></li>
+            </ul>
+
+            <div class="sm:hidden">
+                <button id="menu-btn" class="text-2xl">☰</button>
+            </div>
+
+            <div class="relative z-10 hidden sm:block">
+                <button class="bg-amber-700 w-[130px] text-white hover:bg-amber-600 h-[40px] rounded-[30px]">Get
+                    started</button>
+            </div>
+
+            <div class="absolute -top-50 -right-74 mt-4 z-0">
+                <img class="sm:block hidden" src="imgs/images/bg-tablet-pattern.svg" alt="">
+            </div>
+        </nav>
+    </div>
+
+    <section class="max-w-[1300px] m-auto">
+        <div class="flex flex-col-reverse sm:flex-row items-center gap:10 justify-between mt-[50px]">
+            <div class="mt-[52px] ">
+                <h1 class="text-[50px]"><strong>Bring everyone <br> together to build <br> better products.</strong>
+                </h1><br>
+                <p class="text-gray-500">Manage makes it simple for software teams <br> to plan day-to-day tasks while
+                    keeping the <br> larger
+                    team
+                    goals in view.</p><br>
+                <button class="bg-amber-700 w-[130px] h-[40px] rounded-[30px] text-white hover:bg-amber-600">Get
+                    started</button>
+            </div>
+            <div class="flex relative z-10">
+                <img src="imgs/images/illustration-intro.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-[1300px] m-auto">
+        <div class="grid grid-cols-1 mt-[100px] sm:flex sm:justify-between">
+            <div>
+                <h1 class="text-[40px]"><strong>What’s different about <br> Manage?</strong></h1><br>
+                <p class="text-gray-500">Manage provides all the functionality your <br> team needs, without the
+                    complexity. Our <br> software is tailor-made for modern digital <br> product teams.</p>
+            </div>
+            <div>
+                <div>
+                    <h1><strong>Track company-wide progress</strong></h1><br>
+                    <p class="text-gray-500">See how your day-to-day tasks fit into the wider vision. <br> Go from
+                        tracking progress at the
+                        milestone
+                        level all the <br> way down to the smallest of details. Never lose sight of <br> the bigger
+                        picture again.
+                    </p>
+                </div><br><br>
+
+                <div>
+                    <h1><strong>Advanced built-in reports</strong></h1><br>
+                    <p class="text-gray-500">Set internal delivery estimates and track progress toward <br> company
+                        goals. Our customisable
+                        dashboard
+                        helps you <br> build out the reports you need to keep key stakeholders <br> informed.</p>
+                </div><br><br>
+
+                <div>
+                    <h1><strong>Everything you need in one place</strong></h1><br>
+                    <p class="text-gray-500">Stop jumping from one service to another to <br> communicate, store files,
+                        track tasks and share
+                        <br>
+                        documents. Manage offers an all-in-one team <br> productivity solution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="text-4xl text-center mt-[8%]">
+        <p><strong>What they've said</strong></p>
+    </div>
+
+    <div class="grid grid-cols-1 mt-[4%] gap-[50px] sm:flex sm:justify-center">
+        <div class="bg-gray-300 m-auto h-[220px] w-[80%] sm:w-[60%] md:w-[40%] lg:w-[30%]">
+            <div class="flex justify-center relative">
+                <img class="w-[70px] h-[70px] absolute -top-[35px]" src="imgs/images/avatar-anisha.png" alt="">
+            </div>
+            <h1 class="text-center mt-[60px]">Anisha Li</h1><br>
+            <p class="text-center">
+                Manage has supercharged our team’s workflow. The <br>
+                maintain visibility on larger milestones at all times <br>
+                keeps everyone motivated
+            </p>
+        </div>
+
+        <div class="w-[30%] h-[220px] bg-gray-300 sm:block hidden">
+            <div class="flex justify-center relative">
+                <img class="w-[70px] h-[70px] absolute -top-[35px]" src="imgs/images/avatar-ali.png" alt="">
+            </div>
+            <h1 class="text-center mt-[60px]">Ali Bravo</h1><br>
+            <p class="text-center">We have been able to cancel so many other subscriptions <br> since using Manage.
+                There is no more
+                cross-channel <br> confusion and everyone is much more focused.</p>
+        </div>
+
+        <div class="w-[30%] h-[220px] bg-gray-300 sm:block hidden">
+            <div class="flex justify-center relative">
+                <img class="w-[70px] h-[70px] absolute -top-[35px]" src="imgs/images/avatar-richard.png" alt="">
+            </div>
+            <h1 class="text-center mt-[60px]">Richard Watts</h1><br>
+            <p class="text-center">Manage allows us to provide structure and product <br> keeps us organized and
+                focused. I can’t stop
+                recored <br>
+                them to everyone I talk to!</p>
+        </div>
+    </div>
+    <div class="text-center mt-[4%]">
+        <button
+            class="m-auto w-[50%] sm:w-[30%] md:w-[20%] hover:bg-amber-600 lg:w-[20%] sm:mb-[50px] h-[40px] rounded-2xl text-white bg-amber-700 border-none">Get
+            started</button>
+    </div>
+    </div>
+
+
+
+    <section class="bg-amber-700">
+        <div class="w-[100%] h-[250px] mt-[8%]">
+            <div class="flex justify-end relative">
+                <img class="absolute -top-[120px] right-0" src="imgs/images/bg-simplify-section-desktop.svg" alt="">
+            </div>
+            <div class="grid grid-cols-1 sm:flex sm:justify-between ">
+                <p class="max-w-[1300px] m-auto text-4xl mt-[90px] text-white">Simplify how your team <br> works today.
+                </p>
+                <button
+                    class="m-auto w-[50%] sm:w-[30%] md:w-[20%] lg:w-[20%] sm:mb-[50px] h-[40px] rounded-2xl bg-white mt-[100px] text-amber-700">
+                    Get started
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#1d1d25] text-white py-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+
+            <div class="flex flex-col gap-6">
+                <h1 class="text-2xl font-bold">
+                    <span class="text-orange-500">::</span> manage
+                </h1>
+                <div class="flex gap-4 text-xl">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-y-3 text-sm">
+                <a href="#" class="hover:text-orange-500">Home</a>
+                <a href="#" class="hover:text-orange-500">Careers</a>
+                <a href="#" class="hover:text-orange-500">Pricing</a>
+                <a href="#" class="hover:text-orange-500">Community</a>
+                <a href="#" class="hover:text-orange-500">Products</a>
+                <a href="#" class="hover:text-orange-500">Privacy Policy</a>
+                <a href="#" class="hover:text-orange-500">About Us</a>
+            </div>
+
+            <div class="flex flex-col gap-6 w-full">
+                <form class="flex w-full">
+                    <input type="email" placeholder="Updates in your inbox..."
+                        class="flex-1 rounded-full px-5 text-white bg-gray-500">
+                    <button type="submit"
+                        class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full ml-3">
+                        Go
+                    </button>
+                </form>
+                <p class="text-gray-400 text-sm">Copyright 2020. All Rights Reserved</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
